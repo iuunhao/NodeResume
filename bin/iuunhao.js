@@ -63,16 +63,14 @@ function skillsShow() {
 	log(space2 + color.x46.bold(skills.title))
 	log()
 	for (var i = 0; i < d.length; i++) {
-
 		var txt = ''
-
 		for (var a in d[i]) {
 			if (d[i][a]) {
 				txt += a + ':' + d[i][a] + ' | ';
 			}
 		}
 		log(space4 + color.x161('■ ') + txt)
-		log("   ----------------------------");
+			// log("   ----------------------------");
 	};
 }
 
