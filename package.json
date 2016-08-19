@@ -1,0 +1,17 @@
+{
+	"name": "iuunhao",
+	"version": "1.0.1",
+	"description": "resume",
+	"bin": {
+		"iuunhao": "./bin/iuunhao.js"
+	},
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "iuunhao",
+	"license": "ISC",
+	"dependencies": {
+		"colors-cli": "^1.0.7"
+	}
+}
